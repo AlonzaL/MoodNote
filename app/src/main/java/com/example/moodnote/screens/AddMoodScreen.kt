@@ -27,7 +27,7 @@ fun AddMoodScreen(
     onNoteAdded: () -> Unit
 ) {
     var text by remember { mutableStateOf("") }
-    val selectEmoji by remember { mutableStateOf("😊") }
+    var selectEmoji by remember { mutableStateOf("😊") }
 
     val emojis = listOf("😊", "😢", "😡", "😴")
 
@@ -56,7 +56,7 @@ fun AddMoodScreen(
         ) {
             emojis.forEach { emoji ->
                 Button(
-                    onClick = { selectEmoji },
+                    onClick = { selectEmoji = emoji },
                     modifier = Modifier
                         .weight(1f),
                     colors = ButtonDefaults.buttonColors(
