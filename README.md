@@ -4,8 +4,9 @@
 
 Проект является отличным примером применения чистой архитектуры (MVVM), Jetpack Compose и Hilt для внедрения зависимостей.
 
-<!-- Добавьте сюда GIF или скриншот вашего приложения -->
-<!-- ![MoodNote App Demo](URL_TO_YOUR_GIF.gif) -->
+| Главный экран | Экран деталей |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/files/24415969/default.bmp" width="300"/> | <img src="https://github.com/user-attachments/files/24415971/2.bmp" width="300"/> |
 
 ## ✨ Ключевые возможности
 
